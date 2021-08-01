@@ -341,10 +341,15 @@ section .title::after{
     font-size: 1rem;
 }
 
-.skills, .teams, .about{
+.teams, .about{
     background: radial-gradient(ellipse at bottom, #47126B, #D55D92 );
     color: #fff;
 }
+.skills{
+    background: radial-gradient(ellipse at bottom, #D55D92, #47126B );
+    color: #fff;   
+}
+
 /* 
 .skills .title::after{
     content: "What I'm good at";
