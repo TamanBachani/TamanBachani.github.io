@@ -46,6 +46,7 @@
             <div class="home-content">
                 <div class="text-1">Hello :)</div>
                 <div class="text-2">I'm Taman</div>
+                <div class="text-3">I love to create <span id="type"></span></div>
 <!-- <div class="wrapper">
     <div class="static-txt">I love to create</div>
     <ul class="dynamic-txts">
@@ -268,5 +269,14 @@
     });
 </script>
 <script src="./animations.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script type='module'>
+    new Typewriter('#type', {
+        strings: ['Stories', 'Designs', 'Web Apps', 'Startups'],
+        autoStart: true,
+        deleteSpeed: 1,
+        loop: true
+    });
+</script>
 </body>
 </html>
